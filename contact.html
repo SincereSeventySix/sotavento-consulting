@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Sotavento Consulting</title>
+  <meta name="description" content="Write to Sotavento Consulting in Praia, Cabo Verde.">
+  <meta name="theme-color" content="#0c0d0b">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body data-page="contact">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">
+        <span class="mark">S</span>
+        <span>Sotavento</span>
+      </a>
+      <nav class="desk" aria-label="Primary">
+        <a href="about.html">About</a>
+          <a href="people.html">Leadership</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        <a class="btn" href="contact.html">Start a conversation</a>
+      </nav>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+    </div>
+    <div id="mobile-nav" class="mobile" hidden>
+      <div class="wrap bar">
+        <span class="brand-label">Sotavento</span>
+        <button class="menu-btn" type="button" data-close>Close</button>
+      </div>
+      <nav aria-label="Mobile">
+        <a href="about.html">About</a>
+          <a href="people.html">Leadership</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content">
+
+    <header class="page-intro wrap">
+      <p class="eyebrow">Contact</p>
+      <div>
+        <h1>Tell us the mandate. Keep it short.</h1>
+        <p class="intro">Name, a way back to you, and what you are trying to finance, build, staff, or file.</p>
+      </div>
+    </header>
+    <section class="wrap contact-grid">
+      <form id="contact-form" novalidate>
+        <label>Name (required)<input name="name" autocomplete="name" required></label>
+        <label>Email (required)<input name="email" type="email" autocomplete="email" required></label>
+        <label>Subject<input name="subject" autocomplete="off"></label>
+        <label>Message<textarea name="message" rows="6" required></textarea></label>
+        <p class="form-error" id="form-error" hidden></p>
+        <button class="btn" type="submit">Confirm message</button>
+      </form>
+      <div id="form-done" hidden role="status">
+        <p class="eyebrow">Confirmed on this page</p>
+        <h2 id="done-title">Noted.</h2>
+        <p class="muted">Your message stays in this browser session only. It has not been sent to Sotavento. When an inbox is connected, the same form can deliver it.</p>
+        <button class="btn btn-ghost" type="button" id="write-another">Write another note</button>
+      </div>
+      <aside>
+        <p class="eyebrow">The office</p>
+        <p class="office">Sotavento Consulting, S.A.</p>
+        <p class="muted">Praia, Cabo Verde</p>
+        <p class="muted">NIF 297641204</p>
+        <p class="fine">This form confirms your note on screen. It is not delivered to the firm until an inbox is connected. No phone number is published yet.</p>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <div>
+        <p class="eyebrow">Sotavento</p>
+        <p class="lede">Independent capital advisory and brokerage across Africa.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="about.html">About</a>
+          <a href="people.html">Leadership</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <div class="legal">
+        <p>Sotavento Consulting, S.A.</p>
+        <p>Praia, Cabo Verde</p>
+        <p>NIF 297641204</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
